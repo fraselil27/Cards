@@ -1,5 +1,7 @@
 public class Card
 {
+	public card(String suit, String value, int points)
+{
 	String suit;
 	String value;
 	int points;
@@ -12,3 +14,6 @@ public class Card
 
 	public int getPoints;
 	return points;
+	toString();
+}                   
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
