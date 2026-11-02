@@ -1,19 +1,18 @@
 public class Card
 {
-	public card(String suit, String value, int points)
-{
-	String suit;
-	String value;
-	int points;
+	private String suit; //hearts, diamonds, etc
+	private String value; //2-10, J, Q, K, A
+	private int points; //1-14
 
-	public String getSuit;
-	return suit;
-
-	public String getValue;
-	return value;
-
-	public int getPoints;
-	return points;
-	toString();
-}                   
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+	public Card (String csuit, String cvalue, int cpoints) 
+	{
+		//constructor
+		suit = csuit;
+		value = cvalue;
+		points = cpoints;   
+	}
+	public String getSuit() 
+	{
+		return suit;
+	}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
