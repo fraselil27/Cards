@@ -22,9 +22,17 @@ public class Deck
 		}
 	}
 	//methods of Deck class like Shuffle, Deal
-	public void shuffle()
+	public void shuffle
 	{
 		//shuffle cards
+	}
+	public void deal(int numPlayers, int cardsPerHand)
+	{
+	
+	}
+	public voide dealCard(int playerTurn)
+	{
+	
 	}
 
 }
