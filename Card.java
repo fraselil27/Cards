@@ -15,4 +15,14 @@ public class Card
 	{
 		return suit;
 	}
+	public String getValue() 
+	{
+		return value;
+	}
+	public String toString() 
+	{
+		return value+" of "+suit;
+	}
+
+
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
